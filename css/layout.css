@@ -28,16 +28,36 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+    header {
+        position: relative;
+        height: 800px;
+        min-height: 500px;
+        width: 100%;
+        background: #161415 url(../images/calatrava-3790927.jpg) no-repeat top center;
+        background-size: cover !important;
+        -webkit-background-size: cover !important;
+        text-align: center;
+        overflow: hidden;
+    }
+@media screen and (max-width: 576px) {
+    header {
+        background: #161415 url(../images/calatrava-3790938.jpg) no-repeat top center;
+    }
+}
+.black-background {
+    background-color: black;
+}
+.circle {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 19%;
+}
+
+@media screen and (max-width: 768px) {
 }
 
 /* vertically center banner section */
@@ -52,7 +72,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -630,7 +650,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +674,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
