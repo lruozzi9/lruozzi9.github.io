@@ -345,35 +345,60 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.docker {
+  	width: 70%;
+  	-moz-animation: docker 2s ease;
+  	-webkit-animation: docker 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.elasticsearch {
+  	width: 40%;
+  	-moz-animation: elasticsearch 2s ease;
+  	-webkit-animation: elasticsearch 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.mysql {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: mysql 2s ease;
+  	-webkit-animation: mysql 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.php {
+  	width: 95%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
 }
-.jquery {
+.javascript {
+    width: 80%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
+}
+.csharp {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: csharp 2s ease;
+  	-webkit-animation: csharp 2s ease;
+}
+.nginx {
+    width: 60%;
+    -moz-animation: nginx 2s ease;
+    -webkit-animation: nginx 2s ease;
+}
+.sqlserver {
+  	width: 70%;
+  	-moz-animation: sqlserver 2s ease;
+  	-webkit-animation: sqlserver 2s ease;
+}
+.apache {
+    width: 95%;
+    -moz-animation: apache 2s ease;
+    -webkit-animation: apache 2s ease;
+}
+.ansible {
+    width: 80%;
+    -moz-animation: ansible 2s ease;
+    -webkit-animation: ansible 2s ease;
+}
+.github {
+    width: 60%;
+    -moz-animation: github 2s ease;
+    -webkit-animation: github 2s ease;
 }
 
 @-moz-keyframes photoshop {
